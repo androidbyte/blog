@@ -1,6 +1,7 @@
 #!/bin/bash
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 # Genterate file statis
+#rm -rf public
 hugo # if using a theme, replace by `hugo -t <yourtheme>`
 # pindah ke direktoru publik
 cd "public"
@@ -13,5 +14,5 @@ if [ $# -eq 1 ]
 fi
 git commit -m "$msg"
 # Push atau upload ke Github
-git push origin master
+#git push -u origin master
 cd ".."

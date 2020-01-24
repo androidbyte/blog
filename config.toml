@@ -1,4 +1,4 @@
-baseurl = "https://username.github.io"
+baseurl = "https://androidbyte.github.io"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "id"
 title = "AndroidByte"
@@ -14,7 +14,7 @@ pygmentsCodefencesGuessSyntax = true
 #googleAnalytics = "XXX"
 
 [Params]
-#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  homeTitle = "SEO Simple" # Set a different text for the header on the home page
   subtitle = "Share everything about Android"
   mainSections = ["post","posts"]
   logo = "img/avatar-icon.png" # Expecting square dimensions
