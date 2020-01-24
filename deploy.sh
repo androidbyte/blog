@@ -14,5 +14,5 @@ if [ $# -eq 1 ]
 fi
 git commit -m "$msg"
 # Push atau upload ke Github
-#git push -u origin master
+git push -u origin master
 cd ".."
