@@ -1,0 +1,4 @@
+baseURL = "https://androidbyte.github.io/"
+languageCode = "en-us"
+title = "AndroidByte"
+theme="kacang"
